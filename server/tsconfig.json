@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2024",
+        "module": "NodeNext",
+        "baseUrl": "src",
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*", "src/index.ts"],
+    "exclude": ["node_modules"]
+}
